@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+h1, h3 {
+    color: white;
+}
+
+table {
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+}
+
+th, td {
+    border: 2px solid;
+    height: 60%;
+    width: 60%;
+}
+
+.cel {
+    background-color: rgb(60, 255, 0);
+}
+
+	
+\2606 {
+    background-color: aqua;
+}
