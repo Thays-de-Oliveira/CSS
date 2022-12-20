@@ -1,0 +1,60 @@
+:root {
+	--body-bg: #fafafa;
+	--body-color: rgb(0, 0, 0);
+	--link-color: #222;
+	--link-color-hover: #ff0000;
+  }
+   
+  body {
+	background-color: var(--body-bg);
+	color: var(--body-color);
+  }
+   
+  a {
+	color: var(--link-color);
+	text-decoration: solid;
+  }
+   
+  a:hover {
+	color: var(--link-color-hover);
+  }
+
+.dark-mode:root {
+  --body-bg: #212529;
+  --body-color: #ffffff;
+  --link-color: #dee2e6;
+  --link-color-hover: #3cc368;
+}
+
+
+#container1 {
+	width: 1080px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-left: solid;
+    padding: 10px 10px 10px 16px;
+}
+
+#container2 {
+	width: 1080px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-left: solid;
+    padding: 10px 10px 10px 16px;
+}
+
+#rodape {
+    clear: both;
+	padding:20px 0 30px 0 ;
+	text-align: center;
+}
+
+ul li {
+    margin-right: 25px;
+	padding-bottom: 3px;
+}
+
+ol li {
+    margin-right: 25px;
+	padding-bottom: 3px;
+}
