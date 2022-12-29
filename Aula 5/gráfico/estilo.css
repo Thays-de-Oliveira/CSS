@@ -1,0 +1,140 @@
+body {
+    background-color: #3c3c6c ;
+}
+
+h2 {
+    text-align: -webkit-center;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 250px;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: #292950;
+    padding: 10px;
+}
+
+.item {
+    background-color: red;
+    color: white;
+    width: 100px;
+    text-align: -webkit-center;
+    background-image: linear-gradient(to right, #db208d, #7c8f15);
+}
+
+.li {
+    text-align: -webkit-center;
+    color: white;
+}
+
+#item1 {
+    height: 0%;
+    animation-name: aumentar1;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-play-state: running;
+    align-self: self-end;
+}
+
+@keyframes aumentar1 {
+	from {
+        height: 16%;
+        width: 100px;
+	}
+	to {
+        height: 0%;
+        width: 100px;
+	}
+}
+
+#item2{
+    height: 0%;
+    animation-name: aumentar2;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-play-state: running;
+    align-self: self-end;
+}
+
+@keyframes aumentar2 {
+	from {
+        height: 10%;
+        width: 100px;
+	}
+	to {
+        height: 0%;
+        width: 100px;
+	}
+}
+#item3 {
+    height: 0%;
+    animation-name: aumentar3;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-play-state: running;
+    align-self: self-end;
+}
+
+@keyframes aumentar3 {
+	from {
+        height: 18%;
+        width: 100px;
+	}
+	to {
+        height: 0%;
+        width: 100px;
+	}
+}
+#item4 {
+    height: 0%;
+    animation-name: aumentar4;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-play-state: running;
+    align-self: self-end;
+}
+
+@keyframes aumentar4 {
+	from {
+        height: 15%;
+        width: 100px;
+	}
+	to {
+        height: 0%;
+        width: 100px;
+	}
+}
+
+#item5 {
+    height: 0%;
+    animation-name: aumentar5;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-play-state: running;
+    align-self: self-end;
+}
+
+@keyframes aumentar5 {
+	from {
+        height: 3%;
+        width: 100px;
+	}
+	to {
+        height: 0%;
+        width: 100px;
+	}
+}
