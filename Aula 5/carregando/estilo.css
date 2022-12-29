@@ -1,0 +1,35 @@
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    transform: scale(1);
+  }
+
+.carregamento {
+animation-name: girar; /* nome da animação */
+animation-duration: 1s; /*duration: Tempo do ciclo da animação*/
+animation-iteration-count: infinite; /*Número de vezes que a animação deve repetir
+Para repetir de forma indefinida: infinite
+*/
+animation-timing-function: ease-in-out; /*Função de sincronização da animação, a curva de movimento. Aqui definimos os easings.
+*/
+animation-direction: forwards; /* direction: Alternar (reverter) a direção*/
+animation-play-state: running; /* Se inicia em pausa ou executando
+*/
+
+border-radius: 50%;
+border: 6px double #e3c9c9;
+border-top-color: #e0007b;
+height: 50px;
+width: 50px;
+}
+
+@keyframes girar {
+from {
+    transform: rotate(0);
+}    
+to {
+  transform: rotate(1turn);
+}
+}
