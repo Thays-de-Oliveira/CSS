@@ -21,4 +21,4 @@ html, body
   
 }
 
-@keyframes spin { 100% { transform: rotate(150000deg) }};
+@keyframes spin { 100% { transform: rotate(180000deg) }};
