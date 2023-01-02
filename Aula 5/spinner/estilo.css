@@ -12,11 +12,10 @@ html, body
   animation: spin 10s cubic-bezier(.30,.60,.60,1);
   animation-duration: 1s;
   animation-iteration-count:1 ;
-  animation-timing-function: ease-in-out;
   animation-play-state: running;
   height:140px;
   width: 140px;
-  background: url('https://img2.freepng.es/20180330/cpe/kisspng-fidget-spinner-game-fidgeting-clip-art-fidget-spinner-5abdea3ca94384.8248652715223957086933.jpg') no-repeat;
+  background: url('https://cdn-icons-png.flaticon.com/512/522/522095.png') no-repeat;
   background-position: 22px 30px;
   background-size: 96px 96px;
   
